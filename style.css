@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+table {
+    border: 3px solid black;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+}
+th, td {
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+}
