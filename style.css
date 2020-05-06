@@ -1,10 +1,25 @@
 body {
     background-color: gray;
-    text-align: center;
+ 
+}
+header {
+    
+}
+
+.head {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
 }
 table {
     border: 3px solid black;
-    margin-left: 25%;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     background-color: blanchedalmond;
@@ -13,4 +28,29 @@ th, td {
     border: 3px solid black;
     padding: 5px;
     text-align: center;
+}
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+button {
+    width: 90px;
+    height: 30px;
+    font-size: 24px;
+    background-color: blanchedalmond;
+}
+button:hover {
+    background-color: orange;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: pink;
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
 }
